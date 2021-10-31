@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>2.1.4</version>
+            <version>2.2.0</version>
         </dependency>
         <!-- MySQL -->
         <dependency>
@@ -63,6 +63,14 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjtools</artifactId>
         </dependency>
+        <!-- druid连接池，指定最新版本 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.8</version>
+        </dependency>
+
+
     </dependencies>
 
     <dependencyManagement>
